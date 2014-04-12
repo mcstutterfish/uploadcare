@@ -1,0 +1,14 @@
+{
+    "name": "mcstutterfish/uploadcare-cakephp",
+    "description": "CakePHP plugin for Uploadcare",
+    "license": "MIT",
+    "type":"cakephp-plugin",
+    "minimum-stability": "dev",
+    "require":{
+        "composer/installers":"*"
+    }
+    ,
+    "extra": {
+        "installer-name": "Uploadcare"
+    }
+}
