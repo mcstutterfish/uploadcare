@@ -1,0 +1,26 @@
+{
+    "name": "mcstutterfish/uploadcare-cakephp",
+    "description": "CakePHP plugin for Uploadcare",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Uploadcare",
+            "email": "support@uploadcare.com"
+        },
+        {
+            "name": "Christopher M. Black",
+            "email": "cblack@devonium.com"
+        }
+    ],
+    "type":"cakephp-plugin",
+    "minimum-stability": "dev",
+    "require":{
+        "php": ">=5.3.0",
+        "composer/installers":"*"
+        "uploadcare/uploadcare-php":"*"
+    }
+    ,
+    "extra": {
+        "installer-name": "Uploadcare"
+    }
+}
